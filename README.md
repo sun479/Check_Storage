@@ -20,17 +20,17 @@ The script expects the following directory structure:
 ## 📥 Installation
 Download the script using `wget`:
 ```bash
-wget https://github.com/yourusername/find-oldest-log-script/raw/main/find_oldest_log.sh
+wget https://raw.githubusercontent.com/sun479/Check_Storage/refs/heads/main/find_earliest_log.sh
 ```
 Make the script executable:
 ```bash
-chmod +x find_oldest_log.sh
+chmod +x find_earliest_log.sh
 ```
 
 ## 🚀 Usage
 Run the script with:
 ```bash
-./find_oldest_log.sh
+./find_earliest_log.sh
 ```
 
 ### Example Output:
@@ -50,6 +50,4 @@ echo "2024-01-15 Sample log entry" > /store/ariel/events/records/2024/01/log1.lo
 - Ensure the `/store/ariel/events/records` directory exists.
 - Requires proper permissions to read from the log directory.
 
-## 🧾 License
-This project is licensed under the MIT License.
 
