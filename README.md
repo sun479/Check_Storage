@@ -49,5 +49,8 @@ echo "2024-01-15 Sample log entry" > /store/ariel/events/records/2024/01/log1.lo
 ## 📝 Notes
 - Ensure the `/store/ariel/events/records` directory exists.
 - Requires proper permissions to read from the log directory.
+- mv find_earliest_log.sh.txt find_earliest_log.sh
+- dos2unix find_earliest_log.sh
+
 
 
